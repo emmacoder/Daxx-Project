@@ -124,7 +124,7 @@ batting ("Steve", 351); */
 
 // ARRAYS
 
-var roads = ['stone', 'dirt', 'cement', 'tar',];
+/* var roads = ['stone', 'dirt', 'cement', 'tar',];
 
 roads[1] = "coblestone";
 
@@ -132,4 +132,160 @@ var roadTravelled = roads[1];
 
 document.write(roadTravelled);
 
-alert ('Hello Madale')
+alert ('Hello Umpoto') */
+
+
+/*var orc = {
+
+    hair: "green",
+    age: 26,
+    stomachFull: true,
+    eat: function() {
+        document.write('Yum Yum')
+    }
+};
+
+orc.stomachFull = false;
+
+if (orc.stomachFull == true) {
+    orc.eat();
+}
+
+else {
+    document.write ('not eating')
+}
+
+*/
+
+/*var orc = {
+
+hair: "green",
+age: 26,
+stomachFull: false,
+
+shibe: function() {
+    document.write ("Yum Yum");
+}
+
+};
+
+orc.stomachFull = false;
+
+if (orc.stomachFull == true) {
+    orc.shibe ();
+
+}
+
+else {
+
+    document.write ("not eating")
+}
+
+*/
+
+/*var newAge = orc.age + 2;
+/*orc.hair = "purple";
+orc.hair = 1;
+orc.hair2 = "red"; */
+
+/*document.write (newAge); */
+
+/*var orc = {
+
+hair: "green",
+age: 26,
+stomachFull: false,
+
+};
+*/
+
+/*var hello = "Hello how are you doing?";
+
+hello = hello.italics('doing', 'today');
+
+document.write (hello); */
+
+/*var number = 100;
+
+var newNumber = 900 + Math.ceil(number/100)*1000;
+
+document.write(newNumber);
+*/
+
+
+/* var todayDate = new Date ();
+
+var useString = todayDate.toDateString();
+
+document.write (useString);
+*/
+
+
+
+/* function changeStyle() {
+ 
+    document.getElementById("image").src="images/cloud2.jpg";
+}
+function newParagraph() {
+ 
+    var element = document.createElement("p");
+     
+    var main = document.getElementById("main");
+     
+    main.appendChild(element);
+     
+    var text = document.createTextNode("The Battle of Salamis was fought between an alliance of Greek cities and the Persian Empire in 480 BC.  The Greeks decisively defeated the Persian navy.");
+     
+    element.appendChild(text);
+     
+    }
+
+
+function myFunc ()  {
+      
+    var element = document.crea
+
+
+*/
+
+/*
+var today = new Date();
+var Christmas = new Date("2020-12-25");
+var diffMs = (Christmas - today); // milliseconds between now & Christmas
+var diffDays = Math.floor(diffMs / 86400000); // days
+var diffHrs = Math.floor((diffMs % 86400000) / 3600000); // hours
+var diffMins = Math.round(((diffMs % 86400000) % 3600000) / 60000); // minutes
+alert(diffDays + " days, " + diffHrs + " hours, " + diffMins + " minutes until Christmas 2020 =)");
+*/
+//var text = document.getElementById ("para1").style.color ="blue";
+    //var text = document.getElementById ("para1").style.backgroundColor ="pink";
+    //var text = document.getElementById ("para1").style.fontSize ="xx-large";
+
+
+
+
+
+    /*var firstParaText = paragraph [0].innerHTML;
+    var secondParaText = paragraph [1].innerHTML;
+    var addThem = paragraph[2].innerHTML = firstParaText + secondParaText ;
+
+    var hideText = paragraph [0].innerHTML = "";
+    var hideText = paragraph [1].innerHTML = "";
+    var addThem = paragraph[2].innerHTML = firstParaText + secondParaText ;
+*/
+   // for (var i = 0; i < paragraph.length; i++)
+
+  //  paragraph[i].style.fontStyle ="italic";
+
+
+  function changeText () {
+ 
+    var parent = document.getElementById('main');
+    var child = 
+    child.style.color = "blue";
+     
+    // var child = parent.childNodes[3];
+    }
+
+
+
